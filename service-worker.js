@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/oncologIn/precache-manifest.e3fda3c829dd68b56dae6c150acd2d32.js"
+  "/oncologIn/precache-manifest.c8feaec335bdc2ba09d4374c8b14937f.js"
 );
 
 workbox.clientsClaim();
