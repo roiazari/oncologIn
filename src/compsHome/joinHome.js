@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function JoinHome() {
   return (
     <div class="join container-fluid py-3 d-flex text-center" data-aos="zoom-out-down">
@@ -9,7 +9,7 @@ export default function JoinHome() {
                 officia ipsa voluptatum nisi autem
                 architecto ad fuga dicta modi assumenda aperiam, magnam nihil. Est temporibus sit, alias repellendus
                 odit facilis reprehenderit veritatis cupiditate impedit!</p>
-            <button class=" btn btn-info">Register now</button>
+           <Link to="/register"> <button class=" btn btn-info">Register now</button></Link>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import "./general.css";
+
 export default function Nav() {
   return (
     <header class="container-fluid d-flex  align-items-center text-center">
@@ -11,7 +11,7 @@ export default function Nav() {
             <Link to="/">Home</Link>
             <Link to="/advisors">Advisors</Link>
             <Link to="/coupons">Coupons</Link>
-            <Link to="/posts">Posts</Link>
+            {/* <Link to="/posts">Posts</Link> */}
             <Link to="">Contact Us</Link>
         </nav>
 

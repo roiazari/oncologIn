@@ -9,9 +9,9 @@ export default function ItemAdvisors(props) {
         <div className='d-flex'><h5>location: </h5><div className='ps-2'>{item.location}</div> </div>
         <div className='d-flex'><h5>experience years: </h5> <div className='ps-2'> {item.exprinced_year}</div></div>
         <div className='d-flex'><h5> info: </h5> <div className='ps-2'>{item.info}</div></div>
-        <button className='btn btn-info me-2 mt-2'>Send message</button>
-       
-
+        <div className='d-flex'><h5> phone: </h5> <div className='ps-2'>{item.phone}</div></div>
+      
+  
     </div>
   )
 }

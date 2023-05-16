@@ -10,7 +10,6 @@ export default function ListAdvisors(props) {
                 return(
                   <ItemAdvisors key={item._id}  item={item} />
                 )
-
               })}
           
             </div>

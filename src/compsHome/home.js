@@ -8,19 +8,6 @@ import StripHome from './stripHome';
 import TeamHome from './teamHome';
 
 export default function Home() {
- 
-    const [ar,setAr]=useState([]);
-    useEffect(()=>{
-         
-        doApi();
-    },[]);
-    const doApi= async()=>{
-      let url ="http://localhost:3002/home";
-      let resp =await fetch(url);
-      let data =await resp.json();
-      console.log(data);
-      setAr(data);
-  }
   
     return (
       <React.Fragment>

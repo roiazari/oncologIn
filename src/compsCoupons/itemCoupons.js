@@ -1,10 +1,15 @@
 import React from 'react'
+import "../compsHome/home.css"
 
 export default function ItemCoupons(props) {
   let item=props.item;
+  console.log(item.img_url);
   return (
     <div className='border rounded-2  col-md-4 p-2 '>
-        <img  src={item.img_url} className='img-fluid  h-50 w-100'/>
+        {/* <img  src={item.img_url} className='img-fluid  h-50 w-100'   width={200}  /> */}
+        <div  style={{  backgroundImage: "url(" + item.img_url+ ")",}} className='boxImage'></div>
+
+        
         <h3 className='text-secondary' >{item.title}</h3>
         <div>{item.info}</div>
         <div>{item.adress}</div>
