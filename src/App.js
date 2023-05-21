@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 // import { useState } from 'react';
 import './App.css';
+
 import React, { useEffect, useState } from 'react';
 import Coupons from './compsCoupons/coupons';
-import { BrowserRouter, Route, Routes, useNavigate } from 'react-router-dom';
+import { HashRouter,BrowserRouter, Route, Routes, useNavigate } from 'react-router-dom';
 import Advisors from './‏‏compsAdvisors/advisors';
 import Home from './compsHome/home';
 import Register from './compsRegister/register';

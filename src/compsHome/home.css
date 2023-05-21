@@ -6,6 +6,13 @@
     background:skyblue; 
     padding: 2px;
     font-weight: 800;
+
+}
+.link{
+    cursor: pointer;
+}
+.gap-16{
+    gap: 16px;
 }
 
 .strip{
@@ -122,6 +129,7 @@ footer{
     background-size: cover; /* Resize the background image to cover the entire container */
     
 }
+
 .burger{
     display: none;
 }
